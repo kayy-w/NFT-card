@@ -48,6 +48,8 @@ I started with the structure of the html, keeping in mind how I needed to lay ou
 
 The hardest bit for me was the rollover with the icon. I don't think I have actually hand coded this technique before, so I feel quite pleased I managed to get this to work. I also worked with the transition element for the first time!
 
+I also learned that my time estimates aren't too bad, I timed myself to do this challenge from start to finish. I estimated this would take me around 2 hours and it took me 1h 49m. Not too bad!
+
 ### Continued development
 
 Going to try some of the trickier challenges on frontendmentor.io and build on this knowledge.
