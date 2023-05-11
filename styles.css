@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  background: hsl(217, 54%, 11%);
+  font-size: 18px;
+  font-family: "Outfit", Helvetica, Arial, sans-serif;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+main {
+  background: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  display: flex;
+  margin: 120px auto 50px;
+  flex-direction: column;
+  width: 302px;
+  padding: 20px;
+  box-shadow: #000 0 0 25% 20px;
+}
+main .container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+main .image {
+  width: 100%;
+  height: auto;
+}
+main .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 302px;
+  width: 302px;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  border-radius: 15px;
+}
+main .container:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+main .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+main img {
+  border-radius: 15px;
+}
+main h1 {
+  font-size: 1.4rem;
+  padding: 7px 0 20px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+main p {
+  color: #95a6c4;
+  padding: 0 0 20px;
+  margin: 0;
+}
+main .creator {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0 0 5px;
+}
+main .creator img {
+  width: 30px;
+  border: 1px solid #fff;
+  margin: 0 15px 0 0;
+}
+main .creator p {
+  color: #95a6c4;
+  padding: 0;
+  font-size: 16px;
+}
+main .creator p a {
+  color: #fff;
+}
+main .creator p a:hover {
+  color: hsl(178, 100%, 50%);
+}
+main ul {
+  display: flex;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  list-style: none;
+  justify-content: space-between;
+  margin: 0 0 15px;
+  padding: 0 0 25px;
+  font-size: 16px;
+}
+main ul li.left {
+  text-align: left;
+  color: hsl(178, 100%, 50%);
+  background: url(images/icon-ethereum.svg) left no-repeat;
+  padding: 0 0 0 20px;
+}
+main ul li.right {
+  text-align: right;
+  color: #95a6c4;
+  background: url(images/icon-clock.svg) left no-repeat;
+  padding: 0 0 0 25px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  bottom: 5px;
+}/*# sourceMappingURL=styles.css.map */
