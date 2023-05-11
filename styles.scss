@@ -18,10 +18,14 @@ main {
     border-radius: 15px;
     display: flex;
     margin: 120px auto 50px;
+    @media only screen and (max-width: 380px) {
+        margin-top: 55px;
+    }
     flex-direction: column;
     width: 302px;
     padding: 20px;
     box-shadow: #000 0 0 25% 20px;
+    
     .container {
         position: relative;
         width: 100%;
