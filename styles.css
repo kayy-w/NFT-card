@@ -18,7 +18,7 @@ main {
   background: hsl(216, 50%, 16%);
   border-radius: 15px;
   display: flex;
-  margin: 120px auto 50px;
+  margin: 150px auto 50px;
   flex-direction: column;
   width: 302px;
   padding: 20px;
