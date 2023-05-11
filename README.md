@@ -27,13 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![](.design/screenshot.webp)
 
 ### Links
 
@@ -41,6 +35,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [https://kayy-w.github.io/NFT-card/](https://kayy-w.github.io/NFT-card/)
 
 ## My process
+
+I started with the structure of the html, keeping in mind how I needed to lay out the elements. I then applied flex to the main and stacked the elements inside. Once they were roughly in the right place, I changed fonts and colours to make sure it replicated the design as closely as possible. Lastly, I added the hover colours and icon overlay and then did the small tweak to make the responsive view match the mobile design.
 
 ### Built with
 
@@ -50,46 +46,22 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+The hardest bit for me was the rollover with the icon. I don't think I have actually hand coded this technique before, so I feel quite pleased I managed to get this to work. I also worked with the transition element for the first time!
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Going to try some of the trickier challenges on frontendmentor.io and build on this knowledge.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Udemy Complete Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) - This udemy course is absolutely brilliant. Great for going back to the basics of HTML & CSS and building on my existing development skills. Looking forward to getting to the JS section as I have very little knowledge of JS.
+- [MDN web docs](https://developer.mozilla.org/en-US/docs) - Invaluable as always! Great for referring to when code doesn't quite work the way it should.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website / WIP - [Kay](https://www.kaywyeth.co.uk)
+- Frontend Mentor - [@kayy-w](https://www.frontendmentor.io/profile/kayy-w)
+- Twitter - [@kaywyeth](https://www.twitter.com/kaywyeth)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
